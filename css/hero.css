@@ -1,0 +1,49 @@
+.hero-section {
+  background-color: #1a1a4e;
+  color: white;
+  padding: 50px 0;
+  position: relative;
+  text-align: left;
+}
+.hero-section .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.hero-section .content {
+  position: relative;
+  z-index: 2;
+}
+.hero-section .btn-primary {
+  background-color: #f44336;
+  border-color: #f44336;
+}
+.hero-section .btn-primary:hover {
+  background-color: #d32f2f;
+  border-color: #d32f2f;
+}
+.hero-section .arrow-left,
+.hero-section .arrow-right {
+  background-color: #f44336;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.hero-section .arrow-left {
+  left: 10px;
+}
+.hero-section .arrow-right {
+  right: 10px;
+}

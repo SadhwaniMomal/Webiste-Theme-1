@@ -1,0 +1,18 @@
+.comming-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.comming-card:hover {
+  transform: translateY(-5px);
+}
+
+.comming-card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}

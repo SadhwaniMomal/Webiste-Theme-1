@@ -1,0 +1,46 @@
+.chose-right {
+  background-image: url("../images/banner-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 250px;
+}
+
+.chose-right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(38, 37, 37, 0.518) !important;
+  z-index: 0;
+}
+
+.chose-content {
+  position: relative;
+  z-index: 1;
+}
+
+.chose-logo {
+  width: 95px;
+  height: 55px;
+  background-color: white;
+  text-align: center;
+  border-radius: 100px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotate 3s linear infinite; /* Adjust the duration as needed */
+}
+
+/* Define the keyframe animation */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

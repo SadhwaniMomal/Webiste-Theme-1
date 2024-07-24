@@ -1,0 +1,13 @@
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  /* padding: 2rem; */
+  border-radius: 0.5rem;
+}
+.contact-container {
+  background: #f8f9fa !important;
+}
+
+.contact-form button {
+  width: 100%;
+}

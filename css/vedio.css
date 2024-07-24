@@ -1,0 +1,32 @@
+.vedio-section {
+  background: url("../images/banner-img.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  position: relative;
+  padding: 40px 0;
+}
+
+.vedio-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(11, 35, 99, 0.781); /* Red overlay */
+  z-index: 0;
+}
+
+.vedio-content {
+  position: relative;
+  z-index: 1;
+}
+
+.vedio-logo {
+  width: 95px;
+  height: 55px;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

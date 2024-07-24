@@ -1,0 +1,9 @@
+.stats-section {
+  background-color: #e50000; /* Use the desired red color */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.stats-item {
+  margin-bottom: 10px;
+}

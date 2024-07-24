@@ -1,0 +1,14 @@
+.navbar-nav .nav-item .nav-link.active {
+  color: red;
+  font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link {
+  color: black;
+  font-size: 19px !important;
+}
+
+.my-navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  background-color: transparent !important;
+}

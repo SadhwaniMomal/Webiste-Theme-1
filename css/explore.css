@@ -1,0 +1,21 @@
+.campaign-card {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.campaign-card.red {
+  background-color: #d9534f;
+}
+.campaign-card.white {
+  background-color: #ffffff;
+  color: black;
+}
+.explore-btn {
+  margin-top: 20px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+}
+.explore-btn:hover {
+  background-color: #c9302c;
+}
